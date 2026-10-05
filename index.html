@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isaac — CV en ligne</title>
+  <meta name="description" content="CV en ligne d'Isaac, étudiant en 2e année de classe préparatoire à l'ESEO Cours Lumière. Passionné par l'ingénierie, les sciences et la technologie." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <span class="nav-logo">Isaac<span class="dot">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#education" class="nav-link">Formation</a></li>
+        <li><a href="#skills" class="nav-link">Compétences</a></li>
+        <li><a href="#projects" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Disponible pour un stage</div>
+      <h1 class="hero-title">
+        Bonjour, je suis<br/>
+        <span class="hero-name">Isaac</span>
+      </h1>
+      <p class="hero-subtitle">Étudiant en 2<sup>e</sup> année de classe préparatoire <br/>à l'<strong>ESEO Cours Lumière</strong></p>
+      <p class="hero-description">
+        Passionné par l'ingénierie, les sciences et l'innovation, je construis chaque jour les bases d'une carrière orientée vers les défis technologiques de demain.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary" id="btn-contact">Me contacter</a>
+        <a href="#about" class="btn-secondary" id="btn-about">Découvrir mon profil</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-container">
+        <div class="avatar-ring"></div>
+        <div class="avatar-circle">
+          <span class="avatar-initials">I</span>
+        </div>
+        <div class="floating-badge badge-1">ESEO</div>
+        <div class="floating-badge badge-2">Prépa</div>
+        <div class="floating-badge badge-3">2026</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Défiler</span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="section-container">
+      <div class="section-label">01 — À propos</div>
+      <h2 class="section-title">Qui suis-je ?</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Je suis <strong>Isaac</strong>, étudiant en 2<sup>e</sup> année de classe préparatoire aux grandes écoles d'ingénieurs à l'<strong>ESEO Cours Lumière</strong>.
+          </p>
+          <p>
+            Ma formation m'apporte des bases solides en <strong>mathématiques</strong>, <strong>physique</strong>, <strong>chimie</strong> et en <strong>sciences de l'ingénieur</strong>. Rigoureux, curieux et engagé, je cherche à transformer ces connaissances en solutions concrètes et innovantes.
+          </p>
+          <p>
+            En dehors des cours, j'explore le développement web, la programmation et les nouvelles technologies. Je suis convaincu que l'ingénierie est un formidable levier pour changer le monde.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">2<sup>e</sup></span>
+            <span class="stat-label">Année de Prépa</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">ESEO</span>
+            <span class="stat-label">Cours Lumière</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Curiosité</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Motivation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="section-container">
+      <div class="section-label">02 — Formation</div>
+      <h2 class="section-title">Parcours académique</h2>
+      <div class="timeline">
+
+        <div class="timeline-item active">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2024 — en cours</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Classe Préparatoire aux Grandes Écoles</h3>
+              <span class="timeline-badge badge-current">En cours</span>
+            </div>
+            <p class="timeline-school">ESEO Cours Lumière — Angers</p>
+            <p class="timeline-desc">
+              Formation intensive en mathématiques, physique, chimie et sciences de l'ingénieur. Apprentissage de la rigueur scientifique, de la résolution de problèmes complexes et du travail sous pression.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Mathématiques</span>
+              <span class="tag">Physique</span>
+              <span class="tag">Chimie</span>
+              <span class="tag">SI</span>
+              <span class="tag">Informatique</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2021 — 2024</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>Baccalauréat Général</h3>
+              <span class="timeline-badge">Obtenu</span>
+            </div>
+            <p class="timeline-school">Lycée — Spécialités : Mathématiques &amp; Physique-Chimie</p>
+            <p class="timeline-desc">
+              Baccalauréat général avec mention, spécialités mathématiques et physique-chimie. Option mathématiques expertes en terminale.
+            </p>
+            <div class="timeline-tags">
+              <span class="tag">Maths expertes</span>
+              <span class="tag">NSI</span>
+              <span class="tag">Physique-Chimie</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="section-container">
+      <div class="section-label">03 — Compétences</div>
+      <h2 class="section-title">Mes savoir-faire</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-category-icon">🔬</div>
+          <h3>Sciences</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-name">Mathématiques</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 88%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Physique</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 82%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Chimie</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 74%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Sciences de l'ingénieur</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 78%"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon">💻</div>
+          <h3>Informatique</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 70%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Algorithmique</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 72%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">HTML / CSS</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 65%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">LaTeX</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 60%"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon">🌍</div>
+          <h3>Langues</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <span class="skill-name">Français</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 100%"></div></div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Anglais</span>
+              <div class="skill-bar"><div class="skill-fill" style="--fill: 75%"></div></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-category-icon">🤝</div>
+          <h3>Soft Skills</h3>
+          <div class="soft-skills-grid">
+            <span class="soft-skill">Rigueur</span>
+            <span class="soft-skill">Adaptabilité</span>
+            <span class="soft-skill">Travail en équipe</span>
+            <span class="soft-skill">Autonomie</span>
+            <span class="soft-skill">Curiosité</span>
+            <span class="soft-skill">Persévérance</span>
+            <span class="soft-skill">Synthèse</span>
+            <span class="soft-skill">Communication</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-label">04 — Projets</div>
+      <h2 class="section-title">Réalisations &amp; Initiatives</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" id="project-cv">
+          <div class="project-number">01</div>
+          <div class="project-content">
+            <h3>CV Web Interactif</h3>
+            <p>Conception et développement d'un CV en ligne moderne avec HTML, CSS et JavaScript. Design minimaliste, animations fluides et navigation intuitive.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card" id="project-python">
+          <div class="project-number">02</div>
+          <div class="project-content">
+            <h3>Projets Python (TIPE)</h3>
+            <p>Travaux d'Initiative Personnelle Encadrés : modélisation numérique, traitement de données et visualisation scientifique en Python.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">NumPy</span>
+              <span class="tag">Matplotlib</span>
+            </div>
+          </div>
+          <div class="project-arrow">→</div>
+        </div>
+
+        <div class="project-card" id="project-eng">
+          <div class="project-number">03</div>
+          <div class="project-content">
+            <h3>Projets de Sciences de l'Ingénieur</h3>
+            <p>Conception et modélisation de systèmes mécaniques et électroniques dans le cadre des travaux pratiques de prépa.</p>
+            <div class="project-tags">
+              <span class="tag">CAO</span>
+              <span class="tag">Modélisation</span>
+              <span class="tag">Électronique</span>
+            </div>
+          </div>
+          <div class="project-arrow">→</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-label">05 — Contact</div>
+      <h2 class="section-title">Travaillons ensemble</h2>
+      <p class="contact-intro">
+        Vous avez une opportunité de stage, un projet collaboratif ou simplement envie d'échanger ? N'hésitez pas à me contacter !
+      </p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:isaac@email.com" class="contact-item" id="contact-email">
+            <div class="contact-icon">✉</div>
+            <div>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">isaac@email.com</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-item" id="contact-linkedin">
+            <div class="contact-icon">in</div>
+            <div>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value">Profil LinkedIn</span>
+            </div>
+          </a>
+          <div class="contact-item" id="contact-location">
+            <div class="contact-icon">📍</div>
+            <div>
+              <span class="contact-label">Localisation</span>
+              <span class="contact-value">Angers, France</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Votre nom</label>
+            <input type="text" id="name" name="name" placeholder="Jean Dupont" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" placeholder="jean@exemple.fr" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Bonjour Isaac, je souhaite..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full" id="submitBtn">Envoyer le message</button>
+          <div id="formSuccess" class="form-success" style="display:none;">✓ Message envoyé ! Je vous répondrai rapidement.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <span class="footer-logo">Isaac<span class="dot">.</span></span>
+      <p class="footer-text">Étudiant en prépa à l'ESEO Cours Lumière · Angers, France</p>
+      <p class="footer-copy">© 2026 Isaac — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
